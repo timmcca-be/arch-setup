@@ -8,7 +8,7 @@ wget -O ~/mirrorlist 'https://archlinux.org/mirrorlist/?country=US&protocol=http
 cat ~/mirrorlist | sed s/\#Server/Server/g > /etc/pacman.d/mirrorlist
 
 # 2.2
-pacstrap -K /mnt base base-devel linux linux-firmware nano
+pacstrap -K /mnt base base-devel linux linux-firmware nano netctl dialog wpa_supplicant dhcpcd
 
 # 3.1
 genfstab -U /mnt >> /mnt/etc/fstab
