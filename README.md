@@ -15,7 +15,7 @@ arch-chroot /mnt
 ~/arch-setup/install-chroot.sh
 ```
 
-set up a bootloader, reboot into the system, then
+set up a bootloader, reboot into the system, sign in as `root`, then
 
 ```
 ~/arch-setup/setup.sh
