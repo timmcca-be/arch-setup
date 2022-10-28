@@ -18,5 +18,4 @@ cp ~/arch-setup/locale.gen /mnt/etc/locale.gen
 
 echo 'run:'
 echo '# arch-chroot /mnt'
-echo '# chmod +x ~/arch-setup/install-chroot.sh'
 echo '# ~/arch-setup/install-chroot.sh'
