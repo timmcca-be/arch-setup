@@ -16,7 +16,20 @@ mkinitcpio -P
 echo "set the root password"
 passwd
 
-# 3.8
-cd root
-echo 'set up a bootloader, reboot into the system, then run:'
+read -p "set up refind? [Y/n] " -n 1 -r set_up_refind
+echo
+if [[ ! $set_up_refind =~ ^[Nn]$ ]]
+then
+    pacman -S refind gdisk
+    read -p "efi partition? " efi_partition
+    mount $efi_partition /boot/efi
+    refind-install
+    read -p "root partition? " root_partition
+    export partition_uuid=$(blkid | grep $root_partition | sed -E 's/.*UUID="(.*?)".*/\1/')
+    cat ~/arch-setup/refind_linux_template.conf | envsubst > /boot/refind_linux.conf
+fi
+
+
+echo
+echo 'reboot into the system, then run:'
 echo '# ~/arch-setup/setup.sh'

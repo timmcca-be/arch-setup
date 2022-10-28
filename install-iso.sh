@@ -16,6 +16,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 # 3.4 (start)
 cp ~/arch-setup/locale.gen /mnt/etc/locale.gen
 
+echo
 echo 'run:'
 echo '# arch-chroot /mnt'
 echo '# ~/arch-setup/install-chroot.sh'
