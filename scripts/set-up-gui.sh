@@ -1,5 +1,14 @@
 #!/bin/bash
 
+pacman -S --noconfirm --needed xorg-server xorg-xinit xorg-xinput xorg-xrandr
+
+read -p "touchpad? [yN] " -n 1 -r touchpad
+echo
+if [[ $touchpad =~ ^[Yy]$ ]]
+then
+    pacman -S --noconfirm --needed xf86-input-synaptics
+fi
+
 read -p "video driver? [i:intel/a:amd/n:nvidia/S:skip] " -n 1 -r video_driver
 echo
 if [[ $video_driver =~ ^[Ii]$ ]]
