@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pacman -S --noconfirm --needed xorg-server xorg-xinit xorg-xinput xorg-xrandr
+pacman -S --noconfirm --needed xorg-server xorg-xinit xterm lightdm lightdm-gtk-greeter xfce4
 
 read -p "touchpad? [yN] " -n 1 -r touchpad
 echo
@@ -23,3 +23,5 @@ then
 else
     echo "assuming that you already installed video drivers"
 fi
+
+systemctl enable lightdm
