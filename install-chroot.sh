@@ -27,6 +27,7 @@ else
     echo "set up your own bootloader"
 fi
 
+~/arch-setup/scripts/install-microcode.sh
 
 echo
 echo 'reboot into the system, then run:'
