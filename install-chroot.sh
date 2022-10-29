@@ -22,8 +22,9 @@ read -p "set up refind? [Y/n] " -n 1 -r set_up_refind
 echo
 if [[ ! $set_up_refind =~ ^[Nn]$ ]]
 then
-    pacman -S --noconfirm --needed refind gdisk
     ~/arch-setup/scripts/set-up-refind.sh
+else
+    echo "set up your own bootloader"
 fi
 
 
