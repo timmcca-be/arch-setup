@@ -17,7 +17,7 @@ pacman -S --noconfirm --needed $ucode_package
 
 if [[ -f "/boot/refind_linux.conf" ]]
 then
-    sed -i "/$ucode_package/!s/initrd=/initrd=boot\\$ucode_package.img initrd=/" /boot/refind_linux.conf
+    sed -i "/$ucode_package/!s/initrd=/initrd=boot\\\\$ucode_package.img initrd=/" /boot/refind_linux.conf
 else
     echo "update your bootloader with the microcode"
 fi
