@@ -9,7 +9,7 @@ cp ~/arch-setup/files/pacman.conf /etc/pacman.conf
 pacman -Sy
 ~/arch-setup/scripts/set-up-gui.sh
 ~/arch-setup/scripts/install-programs.sh
-~/arch-setup/install-cascadia-code.sh
+~/arch-setup/scripts/install-cascadia-code.sh
 
 mkdir -p /usr/share/icons/default
 cp ~/arch-setup/files/index.theme /usr/share/icons/default/index.theme
