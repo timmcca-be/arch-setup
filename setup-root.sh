@@ -18,7 +18,7 @@ useradd -m tim
 echo "set tim's password"
 passwd tim
 
-cp ~/arch-setup/sudoers /etc/sudoers
+cp ~/arch-setup/files/sudoers /etc/sudoers
 
 cp -r ~/arch-setup /home/tim/arch-setup
 chown tim /home/tim/arch-setup
