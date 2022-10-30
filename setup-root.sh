@@ -11,6 +11,9 @@ pacman -Sy
 ~/arch-setup/scripts/install-programs.sh
 ~/arch-setup/install-cascadia-code.sh
 
+mkdir -p /usr/share/icons/default
+cp ~/arch-setup/files/index.theme /usr/share/icons/default/index.theme
+
 useradd -m tim
 echo "set tim's password"
 passwd tim
