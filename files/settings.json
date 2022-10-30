@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Github Light Theme - Gray",
+    "editor.fontFamily": "'Cascadia Code SemiLight', Consolas, 'Courier New', monospace",
+    "workbench.startupEditor": "none",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "redhat.telemetry.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default"
+    },
+    "workbench.tree.indent": 20,
+    "editor.fontLigatures": true,
+    "security.workspace.trust.enabled": false
+}

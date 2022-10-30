@@ -1,7 +1,9 @@
 #!/bin/bash
+set -e
 
 pacman -S --noconfirm --needed refind gdisk
 read -p "efi partition? " efi_partition
+mkdir -p /boot/efi
 mount $efi_partition /boot/efi
 refind-install
 read -p "root partition? " root_partition

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 pacman -S --noconfirm --needed xorg-server xorg-xinit xterm lightdm lightdm-gtk-greeter xfce4
 

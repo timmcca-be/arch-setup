@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # 3.3
 ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime

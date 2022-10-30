@@ -1,6 +1,7 @@
 #!/bin/zsh
+set -e
 
-cp -r ~/arch-setup /mnt/root
+cp -r ~/arch-setup /mnt/root/arch-setup
 
 # 2.1
 ~/arch-setup/build-mirrorlist.sh

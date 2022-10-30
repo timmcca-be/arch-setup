@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 read -p "processor manufacturer? [i:intel/a:amd/S:skip] " -n 1 -r processor_manufacturer
 echo
