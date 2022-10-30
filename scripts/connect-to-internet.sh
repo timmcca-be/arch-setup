@@ -10,6 +10,7 @@ elif [[ $connection_type =~ ^[Ee]$ ]]
 then
     ip link
     read -p "interface name? " ethernet_interface
+    export ethernet_interface
     cat ~/arch-setup/files/ethernet-template | envsubst > /etc/netctl/$ethernet_interface
     netctl start $ethernet_interface
 else
