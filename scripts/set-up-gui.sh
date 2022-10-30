@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-pacman -S --noconfirm --needed xorg-server xorg-xinit xterm lightdm lightdm-gtk-greeter xfce4
+pacman -S --noconfirm --needed xorg-server xorg-xinit xterm lightdm lightdm-gtk-greeter xfce4 lightdm-webkit2-greeter lightdm-webkit-theme-litarvan
 
 read -p "touchpad? [yN] " -n 1 -r touchpad
 echo
@@ -24,5 +24,11 @@ then
 else
     echo "assuming that you already installed video drivers"
 fi
+
+cp ~/arch-setup/files/lightdm.conf /etc/lightdm/lightdm.conf
+cp ~/arch-setup/files/lightdm-webkit2-greeter.conf /etc/lightdm/lightdm-webkit2-greeter.conf
+
+mkdir -p /var/lib/lightdm/.local/share/webkitgtk
+cp -r ~/arch-setup/files/localstorage /var/lib/lightdm/.local/share/webkitgtk/localstorage
 
 systemctl enable lightdm
