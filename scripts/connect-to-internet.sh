@@ -17,3 +17,9 @@ else
     echo "not connecting to internet"
     exit
 fi
+
+while ! ping -c 1 archlinux.org
+do
+    echo "waiting for connection"
+    sleep 1
+done
