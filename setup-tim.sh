@@ -8,7 +8,7 @@ echo ". ~/arch-setup/scripts/bashrc.sh" > ~/.bashrc
 mkdir -p ~/.config/xfce4/terminal
 ln -sf ~/arch-setup/files/terminalrc ~/.config/xfce4/terminal/terminalrc
 
-~/arch-setup/install-from-aur.sh
+~/arch-setup/scripts/install-from-aur.sh
 
 mkdir -p ~/.config/Code/User
 ln -sf ~/arch-setup/files/settings.json ~/.config/Code/User/settings.json
