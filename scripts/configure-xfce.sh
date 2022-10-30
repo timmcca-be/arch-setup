@@ -4,7 +4,8 @@ set -e
 # finding settings:
 # https://forum.xfce.org/viewtopic.php?id=10836
 
-ln -s ~/arch-setup/files/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+ln -sf ~/arch-setup/files/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+cp ~/arch-setup/files/whiskermenu-8.rc ~/config/xfce4/panel/whiskermenu-8.rc
 
 xfconf-query -c xfwm4 -p /general/raise_with_any_button -s false
 xfconf-query -c xfwm4 -p /general/mousewheel_rollup -s false
