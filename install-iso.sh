@@ -2,7 +2,7 @@
 set -e
 
 # 2.1
-~/arch-setup/build-mirrorlist.sh
+~/arch-setup/scripts/build-mirrorlist.sh
 
 # 2.2
 pacstrap -K /mnt base base-devel linux linux-firmware nano netctl dialog wpa_supplicant dhcpcd
