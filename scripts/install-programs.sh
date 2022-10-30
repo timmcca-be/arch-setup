@@ -14,4 +14,9 @@ pacman -S --noconfirm --needed \
     networkmanager \
     network-manager-applet \
     pluma \
-    arch-install-scripts
+    arch-install-scripts \
+    xfce4-whiskermenu-plugin \
+    papirus-icon-theme \
+    arc-gtk-theme \
+    gimp \
+    inkscape
