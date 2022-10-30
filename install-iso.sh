@@ -1,8 +1,6 @@
 #!/bin/zsh
 set -e
 
-cp -r ~/arch-setup /mnt/root/arch-setup
-
 # 2.1
 ~/arch-setup/build-mirrorlist.sh
 
@@ -14,6 +12,8 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 # 3.4 (start)
 cp ~/arch-setup/files/locale.gen /mnt/etc/locale.gen
+
+cp -r ~/arch-setup /mnt/root/arch-setup
 
 echo
 echo 'run:'
