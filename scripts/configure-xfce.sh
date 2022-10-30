@@ -24,3 +24,5 @@ xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-home -s false
 xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-filesystem -s false
 xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-trash -s false
 xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-removable -s false
+
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/Super_L -s xfce4-popup-whiskermenu
