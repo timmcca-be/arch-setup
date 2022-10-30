@@ -3,6 +3,8 @@ set -e
 
 mkdir -p ~/arch-setup-tmp
 
+~/arch-setup/scripts/connect-to-internet.sh
+
 cp ~/arch-setup/files/pacman.conf /etc/pacman.conf
 pacman -Sy
 ~/arch-setup/scripts/set-up-gui.sh

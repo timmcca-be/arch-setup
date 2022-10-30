@@ -9,4 +9,9 @@ pacman -S --noconfirm --needed \
     git \
     man \
     telegram-desktop \
-    engrampa
+    engrampa \
+    jq \
+    networkmanager \
+    network-manager-applet \
+    pluma \
+    arch-install-scripts

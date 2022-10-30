@@ -30,6 +30,8 @@ fi
 
 ~/arch-setup/scripts/install-microcode.sh
 
+cp ~/arch-setup/files/inputrc /etc/inputrc
+
 echo
 echo 'reboot into the system, then run:'
 echo '# ~/arch-setup/setup.sh'
