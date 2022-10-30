@@ -5,9 +5,8 @@ set -e
 # https://forum.xfce.org/viewtopic.php?id=10836
 
 ln -sf ~/arch-setup/files/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
-# copy this instead of linking, since recently used apps are stored here
 cp ~/arch-setup/files/whiskermenu-8.rc ~/.config/xfce4/panel/whiskermenu-8.rc
-ln -sf ~/arch-setup/files/docklike-22.rc ~/.config/xfce4/panel/docklike-22.rc
+cp ~/arch-setup/files/docklike-22.rc ~/.config/xfce4/panel/docklike-22.rc
 
 xfconf-query -c xfwm4 -p /general/raise_with_any_button -s false
 xfconf-query -c xfwm4 -p /general/mousewheel_rollup -s false
