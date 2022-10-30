@@ -4,7 +4,7 @@ set -e
 # finding settings:
 # https://forum.xfce.org/viewtopic.php?id=10836
 
-ln -sf ~/arch-setup/files/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+cp ~/arch-setup/files/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 cp ~/arch-setup/files/whiskermenu-8.rc ~/.config/xfce4/panel/whiskermenu-8.rc
 cp ~/arch-setup/files/docklike-22.rc ~/.config/xfce4/panel/docklike-22.rc
 
