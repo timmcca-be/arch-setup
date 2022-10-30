@@ -21,7 +21,7 @@ passwd tim
 cp ~/arch-setup/files/sudoers /etc/sudoers
 
 cp -r ~/arch-setup /home/tim/arch-setup
-chown tim /home/tim/arch-setup
+chown tim -R /home/tim/arch-setup
 
 echo
 echo "run:"
