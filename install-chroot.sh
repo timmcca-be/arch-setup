@@ -30,8 +30,7 @@ fi
 
 ~/arch-setup/scripts/install-microcode.sh
 
-rmmod pcspkr
-echo "blacklist pcspkr" >>/etc/modprobe.d/blacklist.conf
+echo "blacklist pcspkr" >> /etc/modprobe.d/blacklist.conf
 
 echo
 echo 'reboot into the system, then run:'
