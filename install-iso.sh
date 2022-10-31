@@ -5,7 +5,10 @@ set -e
 ~/arch-setup/scripts/build-mirrorlist.sh
 
 # 2.2
-pacstrap -K /mnt base base-devel linux linux-firmware nano netctl dialog wpa_supplicant dhcpcd
+pacstrap -K /mnt \
+    base base-devel linux linux-firmware \
+    nano netctl dialog wpa_supplicant dhcpcd \
+    man git
 
 # 3.1
 genfstab -U /mnt >> /mnt/etc/fstab

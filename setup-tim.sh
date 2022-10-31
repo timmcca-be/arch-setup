@@ -9,7 +9,7 @@ mkdir -p ~/.config/xfce4/terminal
 ln -sf ~/arch-setup/files/terminalrc ~/.config/xfce4/terminal/terminalrc
 
 ~/arch-setup/scripts/install-yay.sh
-~/arch-setup/scripts/install-from-aur.sh
+~/arch-setup/scripts/install-user-programs.sh
 
 mkdir -p ~/.config/Code/User
 ln -sf ~/arch-setup/files/settings.json ~/.config/Code/User/settings.json
