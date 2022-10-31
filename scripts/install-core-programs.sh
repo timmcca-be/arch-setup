@@ -9,4 +9,5 @@ pacman -S --noconfirm --needed \
     network-manager-applet \
     jq \
     unzip \
-    sqlite
+    sqlite \
+    vim
