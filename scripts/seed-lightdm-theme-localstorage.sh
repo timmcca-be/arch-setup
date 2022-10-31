@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+rm -rf /var/lib/lightdm/.local/share/webkitgtk/localstorage
 mkdir -p /var/lib/lightdm/.local/share/webkitgtk/localstorage
 
 export localstorage_color=$(echo -n '#249cea' | iconv -f UTF-8 -t UTF-16LE | xxd -p | tr -d \\n)
