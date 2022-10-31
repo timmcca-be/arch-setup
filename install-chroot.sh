@@ -21,7 +21,7 @@ mkinitcpio -P
 echo "set the root password"
 passwd
 
-read -p "set up refind? [Y/n] " -n 1 -r set_up_refind
+read -p "set up refind? [Yn] " -n 1 -r set_up_refind
 echo
 if [[ ! $set_up_refind =~ ^[Nn]$ ]]
 then
