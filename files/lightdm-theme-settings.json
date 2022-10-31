@@ -1,0 +1,30 @@
+{
+    "first": false,
+    "mode": "compact",
+    "disableSplash": true,
+    "disableSplashText": false,
+    "disableIntro": true,
+    "disableFade": false,
+    "roundAvatar": false,
+    "disableAvatar": true,
+    "disableZoom": false,
+    "clock12": true,
+    "randomizeBG": false,
+    "user": {
+        "username": "tim",
+        "image": null,
+        "language": null,
+        "display_name": "tim",
+        "home_directory": "/home/tim",
+        "layout": null,
+        "logged_in": false,
+        "name": "tim",
+        "session": "xfce",
+        "real_name": ""
+    },
+    "desktop": {
+        "name": "Xfce Session",
+        "key": "xfce",
+        "comment": "Use this session to run Xfce as your desktop environment"
+    }
+}

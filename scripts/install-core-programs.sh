@@ -8,4 +8,5 @@ pacman -S --noconfirm --needed \
     networkmanager \
     network-manager-applet \
     jq \
-    unzip
+    unzip \
+    sqlite

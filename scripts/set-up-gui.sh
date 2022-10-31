@@ -28,7 +28,4 @@ fi
 cp ~/arch-setup/files/lightdm.conf /etc/lightdm/lightdm.conf
 cp ~/arch-setup/files/lightdm-webkit2-greeter.conf /etc/lightdm/lightdm-webkit2-greeter.conf
 
-mkdir -p /var/lib/lightdm/.local/share/webkitgtk/localstorage
-cp ~/arch-setup/files/localstorage/* /var/lib/lightdm/.local/share/webkitgtk/localstorage
-
 systemctl enable lightdm

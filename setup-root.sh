@@ -7,8 +7,9 @@ mkdir -p ~/arch-setup-tmp
 
 cp ~/arch-setup/files/pacman.conf /etc/pacman.conf
 pacman -Sy
-~/arch-setup/scripts/set-up-gui.sh
 ~/arch-setup/scripts/install-core-programs.sh
+~/arch-setup/scripts/set-up-gui.sh
+~/arch-setup/scripts/seed-lightdm-theme-localstorage.sh
 ~/arch-setup/scripts/install-cascadia-code.sh
 
 mkdir -p /usr/share/icons/default
