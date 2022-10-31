@@ -7,4 +7,5 @@ pacman -S --noconfirm --needed \
     ntfs-3g \
     networkmanager \
     network-manager-applet \
-    jq
+    jq \
+    unzip
