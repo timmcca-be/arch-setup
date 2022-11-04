@@ -6,9 +6,9 @@ set -e
 
 killall xfconfd
 
-cp ~/arch-setup/files/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
-cp ~/arch-setup/files/whiskermenu-8.rc ~/.config/xfce4/panel/whiskermenu-8.rc
-cp ~/arch-setup/files/docklike-22.rc ~/.config/xfce4/panel/docklike-22.rc
+cp ~/arch-setup/files/configure-xfce/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+cp ~/arch-setup/files/configure-xfce/whiskermenu-8.rc ~/.config/xfce4/panel/whiskermenu-8.rc
+cp ~/arch-setup/files/configure-xfce/docklike-22.rc ~/.config/xfce4/panel/docklike-22.rc
 
 xfconf-query -c xfwm4 -p /general/raise_with_any_button -s false --create -t bool
 xfconf-query -c xfwm4 -p /general/mousewheel_rollup -s false --create -t bool

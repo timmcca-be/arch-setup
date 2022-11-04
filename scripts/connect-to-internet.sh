@@ -11,7 +11,7 @@ then
     ip link
     read -p "interface name? " ethernet_interface
     export ethernet_interface
-    cat ~/arch-setup/files/ethernet-template | envsubst > /etc/netctl/$ethernet_interface
+    cat ~/arch-setup/files/connect-to-internet/ethernet-template | envsubst > /etc/netctl/$ethernet_interface
     netctl start $ethernet_interface
 else
     echo "not connecting to internet"

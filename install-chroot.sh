@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-mkdir -p ~/arch-setup-tmp
+mkdir -p ~/arch-setup/tmp
 
 # 3.3
 ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime

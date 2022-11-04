@@ -1,6 +1,8 @@
 #!/bin/zsh
 set -e
 
+mkdir -p ~/arch-setup/tmp
+
 # 2.1
 ~/arch-setup/scripts/build-mirrorlist.sh
 
@@ -14,7 +16,7 @@ pacstrap -K /mnt \
 genfstab -U /mnt >> /mnt/etc/fstab
 
 # 3.4 (start)
-cp ~/arch-setup/files/locale.gen /mnt/etc/locale.gen
+cp ~/arch-setup/files/setup-iso/locale.gen /mnt/etc/locale.gen
 
 cp -r ~/arch-setup /mnt/root/arch-setup
 

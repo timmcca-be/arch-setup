@@ -25,7 +25,7 @@ else
     echo "assuming that you already installed video drivers"
 fi
 
-cp ~/arch-setup/files/lightdm.conf /etc/lightdm/lightdm.conf
-cp ~/arch-setup/files/lightdm-webkit2-greeter.conf /etc/lightdm/lightdm-webkit2-greeter.conf
+cp ~/arch-setup/files/set-up-gui/lightdm.conf /etc/lightdm/lightdm.conf
+cp ~/arch-setup/files/set-up-gui/lightdm-webkit2-greeter.conf /etc/lightdm/lightdm-webkit2-greeter.conf
 
 systemctl enable lightdm
