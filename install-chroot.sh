@@ -21,14 +21,8 @@ mkinitcpio -P
 echo "set the root password"
 passwd
 
-read -p "set up refind? [Yn] " -n 1 -r set_up_refind
-echo
-if [[ ! $set_up_refind =~ ^[Nn]$ ]]
-then
-    ~/arch-setup/scripts/set-up-refind.sh
-else
-    echo "set up your own bootloader"
-fi
+# 3.8
+~/arch-setup/scripts/set-up-refind.sh
 
 ~/arch-setup/scripts/install-microcode.sh
 

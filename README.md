@@ -1,10 +1,10 @@
 # arch setup
 
-do [pre-installation](https://wiki.archlinux.org/title/installation_guide#Pre-installation), then
+[partition your disks](https://wiki.archlinux.org/title/installation_guide#Partition_the_disks), [format your partitions](https://wiki.archlinux.org/title/installation_guide#Format_the_partitions), then
 
 ```
-cd ~
 pacman -Sy git
+cd ~
 git clone https://github.com/timmcca-be/arch-setup.git
 ~/arch-setup/install-iso.sh
 ```

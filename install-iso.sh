@@ -3,6 +3,9 @@ set -e
 
 mkdir -p ~/arch-setup/tmp
 
+# 1.11
+~/arch-setup/mount-devices.sh
+
 # 2.1
 ~/arch-setup/scripts/build-mirrorlist.sh
 
