@@ -14,4 +14,5 @@ yay -S --noconfirm --needed \
     papirus-icon-theme \
     arc-gtk-theme \
     gimp \
-    inkscape
+    inkscape \
+    discord
