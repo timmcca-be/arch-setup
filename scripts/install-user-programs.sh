@@ -15,4 +15,5 @@ yay -S --noconfirm --needed \
     arc-gtk-theme \
     gimp \
     inkscape \
-    discord
+    discord \
+    ttf-dejavu
