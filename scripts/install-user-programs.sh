@@ -16,4 +16,11 @@ yay -S --noconfirm --needed \
     gimp \
     inkscape \
     discord \
-    ttf-dejavu
+    ttf-dejavu \
+    tex-gyre-fonts \
+    gnu-free-fonts \
+    ttf-liberation \
+    noto-fonts \
+    noto-fonts-extra \
+    noto-fonts-emoji \
+    ttf-roboto
