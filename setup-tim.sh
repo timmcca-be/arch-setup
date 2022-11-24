@@ -16,6 +16,7 @@ ln -sf ~/arch-setup/files/setup-tim/vscode-settings.json ~/.config/Code/User/set
 code --install-extension bierner.github-markdown-preview
 code --install-extension esbenp.prettier-vscode
 code --install-extension Hyzeta.vscode-theme-github-light
+code --install-extension svelte.svelte-vscode
 
 ~/arch-setup/scripts/configure-xfce.sh
 ~/arch-setup/scripts/configure-git.sh

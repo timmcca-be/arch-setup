@@ -13,5 +13,7 @@
     },
     "workbench.tree.indent": 20,
     "editor.fontLigatures": true,
-    "security.workspace.trust.enabled": false
+    "security.workspace.trust.enabled": false,
+    "svelte.plugin.svelte.note-new-transformation": false,
+    "svelte.enable-ts-plugin": true
 }
