@@ -24,4 +24,5 @@ yay -S --noconfirm --needed \
     noto-fonts-extra \
     noto-fonts-emoji \
     ttf-roboto \
-    nodejs
+    nodejs \
+    npm
