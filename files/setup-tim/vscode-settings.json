@@ -16,5 +16,9 @@
     "security.workspace.trust.enabled": false,
     "svelte.plugin.svelte.note-new-transformation": false,
     "svelte.enable-ts-plugin": true,
-    "editor.renderWhitespace": "boundary"
+    "editor.renderWhitespace": "boundary",
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "editor.formatOnSave": true
 }
