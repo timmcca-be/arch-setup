@@ -10,4 +10,6 @@ pacman -S --noconfirm --needed \
     jq \
     unzip \
     sqlite \
-    vim
+    vim \
+    pulseaudio \
+    xfce4-pulseaudio-plugin

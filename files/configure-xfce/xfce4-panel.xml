@@ -16,6 +16,7 @@
         <value type="int" value="7"/>
         <value type="int" value="22"/>
         <value type="int" value="3"/>
+        <value type="int" value="1"/>
         <value type="int" value="6"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
@@ -38,9 +39,11 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="discord1"/>
         <value type="string" value="TelegramDesktop"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
         <value type="string" value="networking disabled"/>
         <value type="string" value="networkmanager applet"/>
       </property>
@@ -50,7 +53,7 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-12" type="string" value="clock">
-      <property name="tooltip-format" type="string" value="%a, %b %-d, %Y at %-I:%M%P"/>
+      <property name="tooltip-format" type="string" value="%a, %b %-d, %Y at %-I:%M%P "/>
       <property name="digital-format" type="string" value="%a, %b %-d, %Y at %-I:%M%P"/>
       <property name="timezone" type="string" value="America/New_York"/>
       <property name="mode" type="uint" value="2"/>
@@ -61,5 +64,8 @@
     </property>
     <property name="plugin-8" type="string" value="whiskermenu"/>
     <property name="plugin-22" type="string" value="docklike"/>
+    <property name="plugin-1" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+    </property>
   </property>
 </channel>
