@@ -28,4 +28,5 @@ yay -S --noconfirm --needed \
     nodejs \
     npm \
     yarn \
-    via-bin
+    via-bin \
+    p7zip
