@@ -29,4 +29,6 @@ yay -S --noconfirm --needed \
     npm \
     yarn \
     via-bin \
-    p7zip
+    p7zip \
+    wine \
+    wine-mono
