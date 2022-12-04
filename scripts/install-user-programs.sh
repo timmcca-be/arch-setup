@@ -11,6 +11,7 @@ yay -S --noconfirm --needed \
     pluma \
     arch-install-scripts \
     xfce4-whiskermenu-plugin \
+    xfce4-screenshooter \
     papirus-icon-theme \
     arc-gtk-theme \
     gimp \
@@ -26,4 +27,5 @@ yay -S --noconfirm --needed \
     ttf-roboto \
     nodejs \
     npm \
-    yarn
+    yarn \
+    via-bin
