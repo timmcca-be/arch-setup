@@ -11,9 +11,9 @@ ln -sf ~/arch-setup/files/setup-tim/xfce-terminalrc ~/.config/xfce4/terminal/ter
 ln -sf ~/arch-setup/files/setup-tim/mimeapps.list ~/.config/mimeapps.list
 
 # skype for linux will reenable autostart if you disable it normally >:(
-# this file keeps it disabled permanently. this script doesn't actually install skype,
+# this folder keeps it disabled permanently. this script doesn't actually install skype,
 # but in case I do install it later, I don't want to have to think about it.
-cp ~/arch-setup/files/setup-tim/skypeforlinux.desktop ~/.config/autostart/skypeforlinux.desktop
+mkdir -p ~/.config/autostart/skypeforlinux.desktop
 
 ~/arch-setup/scripts/install-yay.sh
 ~/arch-setup/scripts/install-user-programs.sh

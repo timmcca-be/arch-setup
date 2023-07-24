@@ -32,4 +32,5 @@ yay -S --noconfirm --needed \
     p7zip \
     wine \
     wine-mono \
-    imagemagick
+    imagemagick \
+    gnome-keyring
