@@ -3,6 +3,12 @@ set -e
 
 # finding settings:
 # https://forum.xfce.org/viewtopic.php?id=10836
+# - run `xfconf-query -l` to get channel name.
+# - guess at channel name and run `xfconf-query -c [channel_name] -m`,
+#   replacing `[channel_name]` with your guess as to the channel. this
+#   will start monitoring the channel.
+# - change the setting and see if it shows up in the monitor log. if
+#   not, try another channel.
 
 killall xfconfd
 
@@ -15,6 +21,8 @@ xfconf-query -c xfwm4 -p /general/mousewheel_rollup -s false --create -t bool
 xfconf-query -c xfwm4 -p /general/show_dock_shadow -s false --create -t bool
 xfconf-query -c xfwm4 -p /general/button_layout -s '|HMC' --create -t string
 xfconf-query -c xfwm4 -p /general/theme -s Arc-Dark --create -t string
+xfconf-query -c xfwm4 -p /general/wrap_windows -s false --create -t bool
+xfconf-query -c xfwm4 -p /general/tile_on_move -s true --create -t bool
 
 xfconf-query -c xsettings -p /Gtk/CursorThemeName -s Breeze_Snow --create -t string
 xfconf-query -c xsettings -p /Net/ThemeName -s Arc-Dark --create -t string
