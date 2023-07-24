@@ -12,4 +12,5 @@ pacman -S --noconfirm --needed \
     sqlite \
     vim \
     pulseaudio \
-    xfce4-pulseaudio-plugin
+    xfce4-pulseaudio-plugin \
+    archlinux-keyring

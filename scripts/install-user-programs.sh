@@ -31,4 +31,5 @@ yay -S --noconfirm --needed \
     via-bin \
     p7zip \
     wine \
-    wine-mono
+    wine-mono \
+    imagemagick

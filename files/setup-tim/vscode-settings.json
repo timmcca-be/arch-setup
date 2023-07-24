@@ -1,6 +1,7 @@
 {
     "workbench.colorTheme": "Github Light Theme - Gray",
     "editor.fontFamily": "'Cascadia Code SemiLight', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 14,
     "workbench.startupEditor": "none",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -20,5 +21,9 @@
     "[svelte]": {
         "editor.defaultFormatter": "svelte.svelte-vscode"
     },
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    }
 }
