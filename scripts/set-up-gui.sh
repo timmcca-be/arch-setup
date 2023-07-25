@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-pacman -S --noconfirm --needed xorg-server xorg-xinit xterm lightdm lightdm-gtk-greeter xfce4 lightdm-webkit2-greeter lightdm-webkit-theme-litarvan
+pacman -S --noconfirm --needed xorg-server xorg-xinit xterm lightdm lightdm-gtk-greeter xfce4 lightdm-webkit2-greeter lightdm-webkit-theme-litarvan gvfs
 
 read -p "touchpad? [yN] " -n 1 -r touchpad
 echo
