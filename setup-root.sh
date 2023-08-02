@@ -12,6 +12,8 @@ pacman -Sy
 ~/arch-setup/scripts/seed-lightdm-theme-localstorage.sh
 ~/arch-setup/scripts/install-cascadia-code.sh
 
+timedatectl set-local-rtc 1
+
 mkdir -p /usr/share/icons/default
 cp ~/arch-setup/files/setup-root/logged-out-cursor-theme.theme /usr/share/icons/default/index.theme
 

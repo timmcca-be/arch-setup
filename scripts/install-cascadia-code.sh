@@ -5,4 +5,4 @@ zip_url=$(curl -s 'https://api.github.com/repos/microsoft/cascadia-code/releases
 curl -L $zip_url --output ~/arch-setup/tmp/cascadia.zip
 unzip ~/arch-setup/tmp/cascadia.zip -d ~/arch-setup/tmp/cascadia
 mkdir -p /usr/local/share/fonts
-cp -r ~/arch-setup/tmp/cascadia/ttf /usr/local/share/fonts/cascadia
+cp -r ~/arch-setup/tmp/cascadia/ttf/static /usr/local/share/fonts/cascadia
