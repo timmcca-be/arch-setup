@@ -13,4 +13,5 @@ pacman -S --noconfirm --needed \
     vim \
     pulseaudio \
     xfce4-pulseaudio-plugin \
+    pavucontrol \
     archlinux-keyring

@@ -25,5 +25,13 @@
     "explorer.confirmDelete": false,
     "[go]": {
         "editor.defaultFormatter": "golang.go"
-    }
+    },
+    "update.showReleaseNotes": false,
+    "dart.flutterSdkPath": "/home/tim/flutter_sdk/flutter",
+    "idf.pythonInstallPath": "/usr/bin/python",
+    "idf.hasWalkthroughBeenShown": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ]
 }
